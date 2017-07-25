@@ -1,0 +1,57 @@
+/*初始化*/
+body,div,h1,h2,h3,h4,ul,li,ol,p,table,tr,td,form,dl,dt,dd,span,a,img,em,i,strong,label,input,select,option,textarea,br{margin: 0;padding: 0;}
+li{list-style: none;}
+a{color: #ffffff; text-decoration: none;}
+a:hover{opacity: 0.8;}
+img{border: 0; vertical-align: top;}
+// h1,h2,h3,h4,strong,b{font-weight: normal;}
+em,i{font-style: normal;}
+body{font-family: "微软雅黑"; font-size: 18px; color: #fff; background: url(../img/bg.jpg) no-repeat center top; background-color: #0a0a0a;}
+.clearfix:before,.clearfix:after{content: " "; display: table;}
+.clearfix:after{clear: both;}
+.layer{width: 1110px; margin: 0 auto;}
+
+/*share*/
+#share{width: 230px; font-size: 12px; margin: 12px 63px 0 817px;}
+.share-left{float: left; width: 93px; height: 25px; line-height: 25px;  background-color: #141011; border-radius: 4px; padding-left: 6px;}
+.share-left a{float: left; width: 16px; height: 16px; margin: 4px 5px 0 0 !important; padding-left: 0 !important;}
+.share-left .share-left-text{float: left; margin-right: 7px; }
+.share-left .share-left-WB{background: url(../img/weibo.png) no-repeat;}
+.share-left .share-left-KJ{background: url(../img/kongjian.png) no-repeat;}
+.share-right{float: left; width: 115px; height: 13px; line-height: 13px !important; margin: 8px 0 0 16px; }
+.share-right a{float: left; background-image: none !important; margin: 0 0 0 0 !important; padding-left: 0 !important; color: #fff !important;}
+.share-right a:hover{opacity: 0.8 !important;}
+.share-right span{float: left; margin: 0 4px;}
+
+/*appointment*/
+#appointment{width: 555px; margin: 329px 0 72px 555px; background: url(../img/appointment-bg.png) no-repeat; padding-bottom: 17px;}
+#appointment .title{height: 28px; line-height: 28px; font-size: 24px; margin: 12px 0 0 163px; }
+#appointment span{display: block; height: 28px; line-height: 28px; color: #a7b1b4; font-weight: bold;}
+.appointment-titileOne{font-size: 18px; margin: 39px 0 0 82px;}
+.appointment-titileTwo{font-size: 24px; margin: 4px 0 10px 159px;}
+.appointment-titileTwo i{color: #ea0200; margin-left: 14px;}
+.personal-info{width: 440px; margin-left: 71px;}
+.personal-info div{width: 411px; height: 35px; margin-top: 9px; }
+.personal-info label{float: left; width: 72px; color: #dbdbdb; line-height: 35px; text-align: right; }
+.personal-info input{width: 216px; height: 33px; border: 1px #4c4c4c solid; background-color: #2f2f2f; margin-left: -4px; outline: none; padding-left: 8px;}
+.getCode a{display: block; float: right; width: 105px; height: 31px; border: 2px solid #b7431a; color: #fdfdfd; font-size: 16px; background-color: #991812; text-align: center; line-height: 31px;}
+#appointment .gift{width: 480px; margin-left: 52px;}
+.gift li{float: left; width: 239px; height: 101px;}
+#appointment .submit{ margin: 5px 0 0 156px;}
+.submit input{width: 246px; height: 68px; background: url(../img/submit-bg.png) no-repeat; border: none; outline: none; font-size: 30px; color: #fff; }
+
+/*弹窗*/
+#dialog{position: fixed; left: 0; top: 0; width: 100%; height: 100%; filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC000000', endColorstr='#CC000000');background:rgba(0,0,0,0.8);}
+.dialog-succeed,.dialog-fault{width: 756px; position: absolute; left: 50%; top: 50%; margin-left: -378px;}
+.dialog-succeed{height: 416px; background: url(../img/dialog-succeed-bg.png) no-repeat; margin-top: -208px;}
+.dialog-fault{height: 201px; background: url(../img/dialog-fault-bg.png) no-repeat; margin-top: -100px;}
+.dialog-succeed-close,.dialog-fault-close{ display: block; width: 64px; height: 43px; margin: 10px 0 0 647px;}
+.dialog-succeed h3,.dialog-fault h3{position: relative; height: 46px; line-height: 46px; font-size: 36px; color: #c59f56; font-weight: bold; text-align: center; margin-top: 27px;}
+.dialog-succeed i{position: absolute; bottom: -5px; left: 50%; margin-left: -100px; display: block; height: 1px; width: 180px; background-color: #c59f56;}
+.dialog-succeed-text{height: 42px; line-height: 21px; font-size: 16px; color: #c59f56; text-align: center; margin-top: 53px;}
+.dialog-succeed-shared{height: 58px; margin: 63px 0 0 157px;}
+.dialog-succeed-shared a{display: block; float: left; width: 205px !important; height: 58px !important; background: url(../img/succeedShared-bg.png) no-repeat !important; margin: 0 13px 0 0 !important; font-size: 22px !important; color: #493006; text-align: center; line-height: 58px !important; font-weight: bold; padding: 0 !important;}
+
+
+
+

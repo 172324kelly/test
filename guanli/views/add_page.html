@@ -7,8 +7,8 @@
     <article class="twoThirds">
         <h1>Add a New Page of Content</h1>
         <?php if($form->isSubmitted()&& $form->validate()){
-        echo'<p>The page has been added!</p>'；
+        echo'<p>The page has been added!</p>';
         }?>
-        <?php $form->display();?>
+        <?php echo $form;?>
     </article>
 </section>
